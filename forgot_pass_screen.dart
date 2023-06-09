@@ -29,7 +29,7 @@ class ForgotPassScreen extends StatelessWidget {
                   height: 15,
                 ),
                 Text(
-                  "Forgot password",
+                  "Quên mật khẩu",
                   style: AppFont.bold.copyWith(
                     color: Colors.black,
                     fontSize: 32,
@@ -39,7 +39,7 @@ class ForgotPassScreen extends StatelessWidget {
                 SizedBox(
                   height: MediaQuery.of(context).size.height * .1,
                 ),
-                Text('Please, enter your email address. You will receive a link to create a new password via email.',style: AppFont.medium.copyWith(
+                Text('Hãy điền địa chỉ email của bạn. Bạn sẽ nhận được một liên kết để tạo một mật khẩu mới qua email.',style: AppFont.medium.copyWith(
                   fontSize: 14,
                   fontWeight: FontWeight.normal,
                 ),),
@@ -61,13 +61,10 @@ class ForgotPassScreen extends StatelessWidget {
                         ),
                       ]),
                   child: TextFormField(
-                    // controller: passController,
-                    // obscureText: isShowPass,
                     decoration: InputDecoration(
                       border: InputBorder.none,
                       labelText: "Email",
                       alignLabelWithHint: true,
-                      // center labastyle
                       labelStyle: AppFont.regular.copyWith(
                         fontSize: 13,
                         color: Colors.grey,
@@ -90,12 +87,10 @@ class ForgotPassScreen extends StatelessWidget {
                       ),
                     ),
                     onPressed: () {
-                      // authViewModel
-                      //     .login()
-                      //     .then((value) => Navigator.pop(context));
+                     
                     },
                     child: Text(
-                      "send".toUpperCase(),
+                      "Gửi".toUpperCase(),
                       style: AppFont.medium
                           .copyWith(fontSize: 15, color: Colors.white),
                     ),
