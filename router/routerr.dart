@@ -1,4 +1,4 @@
-import 'package:demo_doan_flutter/src/data/model/order.dart';
+// import 'package:demo_doan_flutter/src/data/model/order.dart';
 import 'package:demo_doan_flutter/src/router/router_path.dart';
 import 'package:demo_doan_flutter/src/data/model/product.dart';
 
@@ -12,9 +12,8 @@ import 'package:demo_doan_flutter/src/view/screen/login_screen.dart';
 import 'package:demo_doan_flutter/src/view/screen/my_order_screen.dart';
 // import 'package:demo_doan_flutter/src/view/screen/order_detail_screen.dart';
 import 'package:demo_doan_flutter/src/view/screen/order_success_screen.dart';
-import 'package:demo_doan_flutter/src/view/screen/otp_screen.dart';
 import 'package:demo_doan_flutter/src/view/screen/recent_view_screen.dart';
-import 'package:demo_doan_flutter/src/view/screen/register_screen.dart';
+// import 'package:demo_doan_flutter/src/view/screen/register_screen.dart';
 import 'package:demo_doan_flutter/src/view/screen/splash_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -46,14 +45,14 @@ class Routerr{
         return _generateMaterialRoute(SplashScreen());
       case LoginScreens:
         return _generateMaterialRoute(LoginScreen());
-      case RegisterScreens:
-        return _generateMaterialRoute(RegisterScreen());
+      // case RegisterScreens:
+      //   return _generateMaterialRoute(RegisterScreen());
       case ForgotPassScreens:
         return _generateMaterialRoute(ForgotPassScreen());
       case ChangePassScreens:
         return _generateMaterialRoute(ChangePassScreen());
-      case OtpScreens:
-        return _generateMaterialRoute(OtpScreen());
+      // case OtpScreens:
+      //   return _generateMaterialRoute(OtpScreen());
       default:
         return _generateMaterialRoute(Center(child: Text("Trên bộ định tuyến không xác định",style: TextStyle(
           color: Colors.red,

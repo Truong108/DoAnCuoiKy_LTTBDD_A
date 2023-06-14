@@ -10,5 +10,4 @@ const String SplashScreens = "SplashScreens";
 const String LoginScreens = "LoginScreens";
 const String RegisterScreens = "RegisterScreens";
 const String ForgotPassScreens = "ForgotPassScreens";
-const String OtpScreens = "OtpScreens";
 const String ChangePassScreens = "ChangePassScreens";
